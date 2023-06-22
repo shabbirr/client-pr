@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc586df5.css",
+    "main.js": "/static/js/main.87493723.js",
+    "static/media/john-doe.png": "/static/media/john-doe.e4675f127b56d41e5c8a.png",
+    "static/media/construction-sites.jpg": "/static/media/construction-sites.a43041ecc3b9f159f4b4.jpg",
+    "static/media/engineering-brick-220425-full.jpg": "/static/media/engineering-brick-220425-full.9ceb6d7fd4713e97bf11.jpg",
+    "static/media/Construction-face-bricks-with-different-types-of.jpg_350x350.jpg": "/static/media/Construction-face-bricks-with-different-types-of.jpg_350x350.e6b5fd4db2cf0236c7eb.jpg",
+    "index.html": "/index.html",
+    "main.cc586df5.css.map": "/static/css/main.cc586df5.css.map",
+    "main.87493723.js.map": "/static/js/main.87493723.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc586df5.css",
+    "static/js/main.87493723.js"
+  ]
+}

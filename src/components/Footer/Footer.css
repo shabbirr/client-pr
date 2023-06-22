@@ -1,0 +1,29 @@
+.footer {
+  background-color: var(--primary-color);
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+.footer .logo img {
+  background-color: #fff;
+}
+
+.footer .text-email p {
+  margin-bottom: 0;
+}
+
+.footer .text-email p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .copyright p {
+  margin-bottom: 0;
+}
+
+.footer .text-email p a:hover {
+  text-decoration: underline;
+}

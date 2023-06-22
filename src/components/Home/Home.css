@@ -1,0 +1,67 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.6)),
+    url(../../images/hero_banner.png);
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.hero .content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 700px;
+  margin-left: 70px;
+}
+
+.hero .content h1 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 2.5rem;
+}
+
+.content .textHero {
+  color: #9296d9;
+}
+
+.hero .content .btn-download {
+  width: 175px;
+  font-size: 0.8rem;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--secondary-color);
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  bottom: 105px;
+}
+.hero .content .btn-download a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero .content .btn-download:hover {
+  transform: scale(0.9);
+}
+
+.hero .content button span {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 940px) {
+  .hero .content {
+  }
+  .hero .content p:nth-child(3) {
+    font-size: 2.6rem;
+  }
+
+  .hero .content p:nth-child(4) {
+    font-size: 1.6rem;
+  }
+}

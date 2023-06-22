@@ -1,0 +1,53 @@
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.quote label {
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.errorMsg {
+  max-width: 350px;
+  color: #f21e08;
+  padding: 2px 0;
+  margin-top: 2px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+input[type="text"] {
+  width: 100% !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+form {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scss-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  background-color: #fff;
+}
+
+.css-1fdsijx-ValueContainer {
+  width: 60%;
+}
+
+.productDDL {
+  width: 60%;
+}

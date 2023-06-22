@@ -1,0 +1,37 @@
+.contact {
+  background-color: var(--primary-light);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-left {
+  margin-left: 70px;
+}
+
+.contact-left h3 {
+  margin: 25px 0;
+}
+
+.contact-left .outer-btn {
+  margin-left: 150px;
+}
+
+.contact-right img {
+  width: 500px;
+  height: 400px;
+}
+
+article {
+  color: #353333;
+}
+
+article p.text-contact a {
+  text-decoration: none;
+  color: #353333 !important;
+}
+
+article p.text-contact a:hover {
+  text-decoration: underline;
+}
